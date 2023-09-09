@@ -1,2 +1,3 @@
 streamlit
-webbrowser==23.2.1
+python -m webbrowser -t "http://www.python.org"
+webbrowser
