@@ -1,1 +1,2 @@
 streamlit
+webbrowser==23.2.1
