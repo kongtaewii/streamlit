@@ -42,7 +42,8 @@ if problem == '말자하':
     if kaisa_button:
         webbrowser.open_new_tab(kaisa_url)
 else:
-    st.write('**:red[오답]**')
+    if problem!='몰라요':
+        st.write('**:red[오답]**')
 
 if problem == '카사딘':
     st.image(kassadin)
