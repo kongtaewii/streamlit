@@ -1,2 +1,2 @@
 streamlit
-webbrowser==22.0.3
+webbrowser==23.2.1
