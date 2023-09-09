@@ -25,12 +25,8 @@ if problem == '형제':
 
     st.markdown('***')
     st.markdown('나서스와 레넥톤의 이야기')
-    nasus_button = st.button('**나서스 소설 읽기**', type="primary")
-    renekton_button = st.button('**레넥톤 소설 읽기**', type="primary")
-    if nasus_button:
-        webbrowser.open_new_tab(nasus_url)
-    if renekton_button:
-        webbrowser.open_new_tab(renekton_url)
+    st.markdown('<a href="https://universe.leagueoflegends.com/ko_KR/story/champion/nasusL">나서스 배경</a>', unsafe_allow_html=True)
+    st.markdown('<a href="https://universe.leagueoflegends.com/ko_KR/story/champion/renekton">레넥톤 배경</a>', unsafe_allow_html=True)
 elif problem == '몰라요':
     st.markdown('***')
 else:
