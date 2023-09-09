@@ -29,11 +29,10 @@ problem = st.radio(
 )
 if problem == '말자하':
     st.write('**:green[정답]**')
-
+    st.image(malzahar)
     st.markdown('말자하는 한때 잘나가는 예언가였다.'
                 '하지만 자신의 삶을 예언할 수 없다는 것을 느끼고 방랑한다.'
                 '말자하는 공허에서 끝을 보았고, 공허의 뜻을 따르기로 한다.')
-    st.image(malzahar)
     st.markdown('말자하 배경 이야기')
     kaisa_button = st.button('**말자하 소설 읽기**', type="primary")
     if kaisa_button:
